@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект по Истории</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- SCREEN: MAIN -->
+    <div class="screen active" id="screen-main">
+        <div class="main-background-img">
+            <img src="./assets/img/694556bdc2ac231a84a5ab73775e82ecd904939f.png" alt="" class="main-background-img-ussr-logo">
+        </div>
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold" style="font-size: 23px;">Становление советской государственности</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card" onclick="goTo('screen-theory-1')">
+                    <div class="card-header">
+                        <p class="title gold">Теоретический каркас</p>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            бесклассовое общество без частной собственности и 
+                            государства, <br> основанное на принципе <br> 
+                            «от каждого по способностям, каждому по потребностям»
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="goTo('screen-theory-2')">
+                    <div class="card-header">
+                        <p class="title gold">Революционный этап</p>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Россия истощена Первой мировой войной. <br>
+                            В Петрограде перебои с <br> хлебом, топливом, 
+                            растут цены.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="goTo('screen-theory-3')">
+                    <div class="card-header">
+                        <p class="title gold">Формирование партии</p>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Этот этап ознаменовал формальное <br>
+                            юридическое оформление нового <br>
+                            союзного государства и закрепление <br>
+                            однопартийной системы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN: THEORY 1 -->
+    <div class="screen" id="screen-theory-1">
+        <!-- <div class="theory-background-img">
+            <img src="./assets/img/7e3e09bad038cbd86ebfd16676db6b89856b365e.png" alt="" class="theory-background-img-ussr-logo">
+        </div> -->
+        <div class="theory-back-button">
+            <img src="./assets/img/14e427a8436a4b29d27aef088ee5606cb316558d.png" alt="" class="theory-back-button-img">
+        </div>
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold">Теоретический каркас</p>
+                </div>
+            </div>
+
+            <div class="theory">
+                <p>
+                    <span class="gold">Марксистско‑ленинская концепция государства</span> <br>
+                    Данная концепция стала идеологическим каркасом, на котором 
+                    большевики строили новое государство после Октябрьского переворота.<br>
+                    Диктатура пролетариата в классическом марксизме это рассматривалось 
+                    как переходная фаза от капитализма к коммунизму.
+                    Бла-бла бла...
+                </p>
+                <p>
+                    <span class="gold">Эволюция правового поля 1906-1918 гг.</span> <br>
+                    Основные государственные законы Российской империи (1906 г.)
+                    Фактически первая Конституция России , дарованная Николаем II
+                    под давлением Революции 1905 года. Учреждалась Государственная
+                    Дума с законодательными правами, провозглашались гражданские свободы. 
+                    Этот документ служит точкой отсчета .Бла-бла бла...
+                </p>
+            </div>
+
+            <div class="go-to-quiz" onclick="startQuiz('screen-quiz-1', 1)">
+                <p style="font-size: 23px;">
+                    Закрепление материала
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN: THEORY 2 -->
+    <div class="screen" id="screen-theory-2">
+        <!-- <div class="theory-background-img">
+            <img src="./assets/img/7e3e09bad038cbd86ebfd16676db6b89856b365e.png" alt="" class="theory-background-img-ussr-logo">
+        </div> -->
+        <div class="theory-back-button">
+            <img src="./assets/img/14e427a8436a4b29d27aef088ee5606cb316558d.png" alt="" class="theory-back-button-img">
+        </div>
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold">Революционный этап</p>
+                </div>
+            </div>
+
+            <div class="theory">
+                <p>
+                    <span class="gold">Марксистско‑ленинская концепция государства</span> <br>
+                    Данная концепция стала идеологическим каркасом, на котором 
+                    большевики строили новое государство после Октябрьского переворота.<br>
+                    Диктатура пролетариата в классическом марксизме это рассматривалось 
+                    как переходная фаза от капитализма к коммунизму.
+                    Бла-бла бла...
+                </p>
+                <p>
+                    <span class="gold">Эволюция правового поля 1906-1918 гг.</span> <br>
+                    Основные государственные законы Российской империи (1906 г.)
+                    Фактически первая Конституция России , дарованная Николаем II
+                    под давлением Революции 1905 года. Учреждалась Государственная
+                    Дума с законодательными правами, провозглашались гражданские свободы. 
+                    Этот документ служит точкой отсчета .Бла-бла бла...
+                </p>
+            </div>
+
+            <div class="go-to-quiz" onclick="startQuiz('screen-quiz-2', 2)">
+                <p style="font-size: 23px;">
+                    Закрепление материала
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN: THEORY 3 -->
+    <div class="screen" id="screen-theory-3">
+        <!-- <div class="theory-background-img">
+            <img src="./assets/img/7e3e09bad038cbd86ebfd16676db6b89856b365e.png" alt="" class="theory-background-img-ussr-logo">
+        </div> -->
+        <div class="theory-back-button">
+            <img src="./assets/img/14e427a8436a4b29d27aef088ee5606cb316558d.png" alt="" class="theory-back-button-img">
+        </div>
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold">Формирование партии</p>
+                </div>
+            </div>
+
+            <div class="theory">
+                <p>
+                    <span class="gold">Марксистско‑ленинская концепция государства</span> <br>
+                    Данная концепция стала идеологическим каркасом, на котором 
+                    большевики строили новое государство после Октябрьского переворота.<br>
+                    Диктатура пролетариата в классическом марксизме это рассматривалось 
+                    как переходная фаза от капитализма к коммунизму.
+                    Бла-бла бла...
+                </p>
+                <p>
+                    <span class="gold">Эволюция правового поля 1906-1918 гг.</span> <br>
+                    Основные государственные законы Российской империи (1906 г.)
+                    Фактически первая Конституция России , дарованная Николаем II
+                    под давлением Революции 1905 года. Учреждалась Государственная
+                    Дума с законодательными правами, провозглашались гражданские свободы. 
+                    Этот документ служит точкой отсчета .Бла-бла бла...
+                </p>
+            </div>
+
+            <div class="go-to-quiz" onclick="startQuiz('screen-quiz-3', 3)">
+                <p style="font-size: 23px;">
+                    Закрепление материала
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCREEN: QUIZ 1 -->
+    <div class="screen" id="screen-quiz-1">
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold">Теоретический каркас</p>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                
+            </div>
+
+            <div class="quiz-answers">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCREEN: QUIZ 2 -->
+    <div class="screen" id="screen-quiz-2">
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold">Революционный этап</p>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                
+            </div>
+
+            <div class="quiz-answers">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCREEN: QUIZ 3 -->
+    <div class="screen" id="screen-quiz-3">
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold">Формирование партии</p>
+                </div>
+            </div>
+
+            <div class="quiz-question">
+                
+            </div>
+
+            <div class="quiz-answers">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SCREEN: QUIZ RESULT -->
+    <div class="screen" id="screen-quiz-result">
+        <div class="container" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="header-title">
+                <div class="header-title-container">
+                    <p class="title gold"></p>
+                </div>
+            </div>
+
+            <div class="quiz-result">
+
+            </div>
+
+            <div class="go-to-quiz" onclick="goTo('screen-main')">
+                <p style="font-size: 23px;">Следующий Фрагмент истории</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
