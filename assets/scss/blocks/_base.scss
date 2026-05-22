@@ -1,0 +1,56 @@
+/*----------BASE----------*/
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Kri-43";
+  src: url("../fonts/Kri-43.ttf"), url("../fonts/Kri-43.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --bg: #242121;
+  --header-bg: #79101099;
+  --card-bg: #B90E0E66;
+
+
+  --gold: #F6E740;
+  --white: #FFFFFF;
+}
+.screen {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.container {
+    width: 390px;
+}
+
+p {
+    font-family: "Kri-43";
+    font-size: 17px;
+    // line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+
+    &.title {
+        font-size: 31px;
+        text-align: center;
+    }
+    &.gold, span.gold{
+        color: var(--gold);
+    }
+    &.white {
+        color: var(--white);
+    }
+}
+/*--------END-BASE--------*/

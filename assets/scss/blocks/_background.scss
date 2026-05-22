@@ -1,0 +1,30 @@
+/*-------BACKGROUND-------*/
+body {
+    background-color: var(--bg);
+}
+
+.main-background-img {
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+.main-background-img-ussr-logo {
+    width: 282px;
+    height: 332px;
+}
+.theory-background-img {
+    position: fixed;
+    top: 85%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+.theory-background-img-ussr-logo {
+    width: 146px;
+    height: 144px;
+}
+
+
+/*-----END-BACKGROUND-----*/

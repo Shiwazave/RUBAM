@@ -1,0 +1,18 @@
+.quiz-question {
+    margin-bottom: 32px;
+}
+
+.quiz-answers {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.quiz-answer {
+    max-width: 100%;
+    background-color: var(--card-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 19px 9px;
+}
